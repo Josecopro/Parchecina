@@ -1,0 +1,82 @@
+*{
+    border: 1em;
+    background-color: #EDF1FF;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+.Parchesina{
+    font-size: 4em;
+    color: #102A50;
+}
+.ParchesinaS{
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+.Logbutton{
+    background-color: #102A50;
+    color: #EDF1FF;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    border: 2px solid #102A50;
+}
+.Logbutton:hover{
+    background-color: #EDF1FF;
+    color: #102A50;
+}
+.LogbuttonParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+.Register{
+    display: none;
+    transition: all 0.5s;
+}
+.Login{
+    display: none;
+    transition: all 0.5s;
+}
+
+.Img{
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+.Form{
+    animation: Appear 1s forwards;
+    transition: all 0.5s;
+    margin-top: .5em;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1em;
+    place-items: center;
+    text-align: center;
+    background-color: #69ADD8;
+    padding: 2.1em; 
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 1em;
+}
+
+@keyframes Appear {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+.Form input{
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    border: 2px solid #245fb6;
+    font-size: 1.2em;
+    width: 90%;
+}

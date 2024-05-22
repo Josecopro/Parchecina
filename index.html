@@ -1,1 +1,40 @@
-<h1>uwu</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parchecina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="ParchesinaS">
+        <img src="ParchecinaLogo.png" alt="P" class="Img">
+        <h1 class="Parchesina">Parchesina</h1>
+    </section>
+
+    <div class="container">
+        <div class="box">
+            <div class="LogbuttonParent ">
+                <button class="Logbutton " onclick="showRegisterForm()" ondblclick="RemoveRegister()">Registrarse</button>
+            </div>
+            <form class="Register " method="post">
+                <input type="text" name="username" placeholder="Usuario" required>
+                <input type="password" name="password" placeholder="Contraseña" required>
+                <input type="submit" value="Iniciar" onclick="event.preventDefault(); Redirect();">
+            </form>
+        </div>
+        <div class="box">
+            <div class="LogbuttonParent">
+                <button class="Logbutton " onclick="showLoginForm()">Iniciar Sesión</button>
+
+            </div>
+            <form class="Login " action="login.php" method="post">
+                <input type="text" name="username" placeholder="Usuario" required>
+                <input type="password" name="password" placeholder="Contraseña" required>
+                <input type="submit" value="Registrarse">
+            </form>
+        </div>        
+        <script src="main.js"></script>
+</body>
+
+</html>
