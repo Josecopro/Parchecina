@@ -201,7 +201,7 @@ border-radius: 1em;
     width: 40%;
 }
 .Settings__Items button{
-    padding: 0.5em 1em;
+    padding: 0.5em .5em;
     border-radius: 0.5em;
     border: 2px solid #245fb6;
     font-size: 1.2em;
@@ -209,6 +209,8 @@ border-radius: 1em;
     background-color: #102A50;
     color: #EDF1FF;
     cursor: pointer;
+    padding: 1em;
+    margin: .4em;
 }
 .titulossettings{
     text-align: center;
@@ -253,4 +255,9 @@ border-radius: 1em;
     background-color: #102A50;
     color: #EDF1FF;
     cursor: pointer;
+}
+.title{
+    text-align: center;
+    color: #102A50;
+    font-weight: bolder;    
 }
