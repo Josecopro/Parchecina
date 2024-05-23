@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="Settings">
+        <h1>Configuración</h1>
+        <div class="Settings__Items">
+            <h2 class="titulossettings">Cambiar contraseña</h2>
+            <input type="password" placeholder="Old Password">
+            <input type="password" placeholder="New Password">
+            <input type="password" placeholder="Confirm New Password">
+            <button>Contraseña</button>
+        </div>
+        <div class="Settings__Items">
+            <h2 class="titulossettings">Cambiar correo electronico</h2>
+            <input type="email" placeholder="Old Email">
+            <input type="email" placeholder="New Email">
+            <input type="email" placeholder="Confirm New Email">
+            <button>Email</button>
+        </div>
+        <div class="Settings__Items">
+            <h2 class="titulossettings">Cambiar numero telefonico</h2>
+            <input type="tel" placeholder="Old Phone Number">
+            <input type="tel" placeholder="New Phone Number">
+            <input type="tel" placeholder="Confirm New Phone Number">
+            <button>Numero</button>
+        </div>
+    </section>
+        <section class="Navigator">
+            <button class="Navigator__Items" onclick="Redirect('Principal.html')"> <img src="Rectangle 10.png" class="Img" alt=""></button>
+            <button class="Navigator__Items" onclick="Redirect('info.html')"> <img src="Rectangle 13.png" class="Img" alt=""></button>
+            <button class="Navigator__Items" onclick="Redirect('calendar.html')"> <img src="Rectangle 12.png" class="Img" alt=""></button>
+            <button class="Navigator__Items" onclick="Redirect('settings.html')"> <img src="Rectangle 11.png" class="Img" alt=""></button>
+        </section>
+    <script src="main.js"></script>
+</body>
+</html>

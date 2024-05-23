@@ -188,3 +188,70 @@ border-radius: 1em;
     text-align: center;
     font-size: 2em;
 }
+.Settings__Items{
+    background-color: #69ADD8;
+    border-radius: 1em;
+    margin: 1em;
+
+}
+.Settings__Items input{
+    padding: 0.5em .7em;
+    border-radius: 0.5em;
+    border: 2px solid #245fb6;
+    font-size: 1.2em;
+    width: 40%;
+}
+.Settings__Items button{
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    border: 2px solid #245fb6;
+    font-size: 1.2em;
+    width: 40%;
+    background-color: #102A50;
+    color: #EDF1FF;
+    cursor: pointer;
+}
+.titulossettings{
+    text-align: center;
+    font-size: 1.4em;
+}
+.blockedpage{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-color: #102A50;
+    color: azure;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 1em;
+}
+.blockedpage h1{
+    font-size: 3em;
+}
+.blockedpage p{
+    font-size: 1.5em;
+}
+.blockparent{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-color: #333b46;
+    color: azure;
+    height: 100vh;
+}
+.buttonsblock{
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+.buttonsblock button{
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    border: 2px solid #245fb6;
+    font-size: 1.2em;
+    width: 100%;
+    background-color: #102A50;
+    color: #EDF1FF;
+    cursor: pointer;
+}

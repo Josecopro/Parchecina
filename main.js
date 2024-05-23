@@ -29,7 +29,8 @@ var countdownTimer = setInterval(function() {
     if(timeLeft <= 0) {
         clearInterval(countdownTimer);
         countdownElement.innerText = "¡Es hora de tomar tu medicamento!";
-        window.alert("¡Es hora de tomar tu medicamento!");
+        window.location.href = 'block.html';
+
     } else {
         countdownElement.innerText = "Proxima dosis en: " + timeLeft + " segundos";
     }
