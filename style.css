@@ -9,8 +9,7 @@ body{
     text-align: center;
 }
 .ParchesinaS{
-    margin-top: 3em;
-    display: grid;
+        display: grid;
     grid-template-columns: 1fr;
     place-items: center;
 }
@@ -43,7 +42,7 @@ body{
 }
 
 .Img{
-    max-width: 500px;
+    max-width: 450px;
     width: 100%;
     height: auto;
 }
