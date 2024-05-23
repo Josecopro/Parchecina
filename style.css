@@ -6,6 +6,7 @@ body{
 .Parchesina{
     font-size: 4em;
     color: #102A50;
+    text-align: center;
 }
 .ParchesinaS{
     margin-top: 3em;
@@ -159,4 +160,31 @@ border-radius: 1em;
 .Items p{
     text-align: center;
     font-size: large;
+}
+.Calendario{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 1em;
+    margin-top: 1em;
+    border-radius: .1em;
+    text-align: center;
+    background-color: #1E4D94;
+    margin: .4em;
+    border-radius: .4em;
+    color: white;
+}
+.Calendario td:nth-last-of-type(even){
+    background-color: #102A50;
+    border-radius: 1em;
+    color: azure;
+}
+.Titulocalendar{
+    font-size: 1.5em;
+    color: #EDF1FF;
+    text-align: center;
+    padding-left: .4em;
+}
+.Mes{
+    text-align: center;
+    font-size: 2em;
 }
