@@ -20,7 +20,7 @@
             <form class="Register " method="post">
                 <input type="text" name="username" placeholder="Usuario" required>
                 <input type="password" name="password" placeholder="Contraseña" required>
-                <input type="submit" value="Iniciar" onclick="event.preventDefault(); Redirect();">
+                <input type="submit" value="Iniciar" onclick="event.preventDefault(); Redirect('Principal.html');">
             </form>
         </div>
         <div class="box">
@@ -28,7 +28,7 @@
                 <button class="Logbutton " onclick="showLoginForm()">Iniciar Sesión</button>
 
             </div>
-            <form class="Login " action="login.php" method="post">
+            <form class="Login "  method="post">
                 <input type="text" name="username" placeholder="Usuario" required>
                 <input type="password" name="password" placeholder="Contraseña" required>
                 <input type="submit" value="Registrarse">

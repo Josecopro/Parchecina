@@ -96,8 +96,9 @@ body{
     color: #EDF1FF;
     font-size: 1.5em;
     cursor: pointer;
-    border: 2px solid #EDF1FF;
     border-radius: .7em;
+    background: none;
+    border: none;
 }
 .PrincipalSection{
     margin: 1em;
@@ -138,4 +139,24 @@ body{
 .texto{
     font-weight: bold;
     font-size: x-large;
+}
+.Items{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1em;
+    margin-top: 1em;
+    margin: 1em;
+    border-radius: 1em;
+}
+.ItemInfo{
+    background-color: gainsboro;
+border-radius: 1em;
+}
+.Items h2{
+    margin-left: 1em;
+    font-size: 1.7em;
+}
+.Items p{
+    text-align: center;
+    font-size: large;
 }

@@ -12,8 +12,8 @@ function showRegisterForm() {
     loginForm.classList.remove('Form');
 
 }
-function Redirect() {
-    window.location.href = "uwu.html";
+function Redirect(redirection) {
+    window.location.href = redirection;
 
 }
 function getRandomInt(max) {
